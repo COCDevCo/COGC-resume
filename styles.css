@@ -10,15 +10,14 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #004d40, #00796b);
+    background: rgba(0, 77, 64, 0.8); /* Transparent background */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: fixed;
-    width: 100%;
+    position: sticky;
     top: 0;
-    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -58,8 +57,8 @@ nav ul li a:hover {
 
 .profile-photo {
     text-align: center;
-    margin-top: 5rem; /* Adjust space for fixed header */
-    padding-top: 8rem; /* Additional padding to ensure the image is not covered */
+    padding-top: 8rem; /* Ensure image is visible below the sticky header */
+    margin-bottom: -5rem;
 }
 
 .profile-photo img {
@@ -74,7 +73,7 @@ section {
     padding: 2rem;
     margin: 0 auto;
     max-width: 1200px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
@@ -118,11 +117,11 @@ a:hover {
 }
 
 footer {
-    background: #004d40;
+    background: rgba(0, 77, 64, 0.8); /* Transparent background */
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
