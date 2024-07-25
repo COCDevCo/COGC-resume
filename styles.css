@@ -58,8 +58,8 @@ nav ul li a:hover {
 
 .profile-photo {
     text-align: center;
-    padding-top: 8rem; /* Ensure image is visible below the sticky header */
-    margin-bottom: -5rem;
+    margin-top: 6rem; /* Ensure image is visible below the sticky header */
+    margin-bottom: 2rem;
 }
 
 .profile-photo img {
@@ -93,10 +93,15 @@ h2 {
 h3 {
     margin-top: 0;
     color: #004d40;
+    margin-bottom: 2rem;
 }
 
 .resume-section {
     margin-bottom: 2rem;
+}
+
+.resume-section p {
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -107,6 +112,10 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
+}
+
+.resume-section ul {
+    margin-bottom: 2rem;
 }
 
 a {
