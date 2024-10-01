@@ -138,6 +138,25 @@ footer {
     width: 100%;
 }
 
+.download-button {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.download-button button {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-button button:hover {
+    background-color: #004d40;
+}
+
 @media (max-width: 600px) {
     nav ul {
         text-align: center;
@@ -149,3 +168,4 @@ footer {
         margin: 0.5rem 0;
     }
 }
+

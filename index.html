@@ -7,6 +7,7 @@
     <meta name="keywords" content="Carlo Orlando Calvo, network associate, telecommunications, IT professional, resume">
     <title>Carlo Orlando Calvo - Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -35,8 +36,8 @@
         <h2>General Qualifications</h2>
         <div class="resume-section">
             <h3>Education</h3>
-            <p><strong>Bachelor of Science (BS) in Information Technology</strong> - ICAS - Sucat, Sep 2022 - Aug 2024</p>
-            <p><strong>Associate's Degree in Computer Technology/Computer Systems Technology</strong> - Infotech Institute of Arts and Sciences, 2004 - 2007</p>
+            <p><strong>Bachelor of Science (BS) in Information Technology</strong> - Infotech College of Arts and Sciences - Sucat</p>
+            <p><strong>Associate's Degree in Computer Technology/Computer Systems Technology</strong> - Infotech Institute of Arts and Sciences - Makati City</p>
         </div>
 
         <div class="resume-section">
@@ -54,7 +55,6 @@
                 <li>Test repaired, newly installed, or updated equipment to ensure that it functions properly and conforms to specifications, using test equipment and observation.</li>
                 <li>Skills: Carrier Ethernet, SDH, Fiber Optics Technologies, LAN-WAN, Cisco Routers. VeEx, ExPO, VIAVI testing</li>
             </ul>
-
             <p><strong>Jr DataNet Installer</strong> - Pointman Placement Specialists Inc. (Sep 2017 - Oct 2018)</p>
             <ul>
                 <li>Provided enterprise service configuration and activation support.</li>
@@ -85,10 +85,18 @@
                 <li>Skills: SDH, Fiber Optics, Telecommunications Systems.</li>
             </ul>
 
+            <p><strong>Freelance Digital artist</strong> - Carlo Co. (2010 - 2012)</p>
+            <ul>
+                <li>Vector portait commissioning</li>
+                <li>custom design layout</li>
+                <li>Website development</li>
+                <li>Logo design</li>
+            </ul>
+
             <p><strong>Area Technician</strong> - Digital Paradise, Inc. (2008 - 2010)</p>
             <ul>
-                <li>Managed LAN networks, PC troubleshooting, and digital art commissioning.</li>
-                <li>Skills: Computer Hardware Troubleshooting, Networking, Graphics.</li>
+                <li>Managed LAN networks, PC troubleshooting and maintenance, <br> Digital service delivery, layout, printing, custom design and Logo art commissioning.</li>
+                <li>Skills: Computer Hardware Troubleshooting, Networking, Graphics layout.</li>
             </ul>
         </div>
 
@@ -96,7 +104,7 @@
             <h3>Skills</h3>
             <ul>
                 <li>TCP/IP</li>
-                <li>Routing, switching, and VLANs/li>
+                <li>Routing, switching, and VLANs</li>
                 <li>Fiber Optics, routers, switches, firewalls, and access points</li>
                 <li>IDS/IPS intrusion detection/prevention systems</li>
                 <li>LAN/WAN, Wi-Fi standards and wireless security protocols 802.11/WPA2</li>
@@ -104,7 +112,8 @@
                 <li>VMware, and cloud platforms AWS, Google Cloud</li>
                 <li>VoIP</li>
                 <li>PRTG</li>
-                <li>Python, JavaScript, CSS, HTML, C+, Django, React Native, .Net</li>
+                <li>Python, HTML, CSS,  C+, Django, JavaScript, React Native, .Net</li>
+                <li>Adobe Photoshop, Adobe Illustrator, Canva, CorelDRAW, Sketch</li>
             </ul>
         </div>
 
@@ -122,8 +131,9 @@
 
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <p><a href="https://cogc-simulator.netlify.app/" target="_blank">Exam Simulator</a> - Prepare for your Cisco certification exams with my Cisco Exam Simulator! Designed to replicate the real exam environment, my simulator offers a comprehensive range of practice questions, detailed explanations, and performance tracking. Boost your confidence and knowledge with realistic practice tests and achieve your certification goals effortlessly.</p>
-        <p><a href="https://cogc-reimbursement.vercel.app/" target="_blank">Reimbursement Form</a> - Streamline your expense management with my Reimbursement Form application. Utilizing cutting-edge OCR technology, my app allows users to effortlessly scan receipts and extract key details such as date, amount, and merchant name. Built with React for a responsive front-end and Flask for a robust back-end, this application ensures efficient processing and accurate data capture, making reimbursement hassle-free and efficient.</p>
+        <p><a href="https://deviantart.com/carlocoloco" target="_blank">Deviantart Profile</a> - I'm a passionate graphic designer with a flair for creativity and attention to detail. My work spans across various mediums, from digital art to branding, with a focus on clean, stylish, and impactful designs. With experience in the clothing industry and a loce for artistic expression, I strive to bring innovatice ideas to life. Explore my Profile to see some of the project and designs</p>
+        <p><a href="https://cogc-simulator.netlify.app/" target="_blank">Exam Simulator</a> - Prepare for your Cisco certification exams with the Cisco Exam Simulator! Designed to replicate the real exam environment, the simulator offers a comprehensive range of practice questions, detailed explanations, and performance tracking. Boost your confidence and knowledge with realistic practice tests and achieve your certification goals effortlessly.</p>
+        <p><a href="https://cogc-reimbursement.vercel.app/" target="_blank">Reimbursement Form</a> - Streamline your expense management with the Reimbursement Form application. Utilizing cutting-edge OCR technology, the app allows users to effortlessly scan receipts and extract key details such as date, amount, and merchant name. Built with React for a responsive front-end and Flask for a robust back-end, this application ensures efficient processing and accurate data capture, making reimbursement hassle-free and efficient.</p>
     </section>
 
     <section id="contact">
@@ -137,6 +147,10 @@
     <footer>
         <p>&copy; 2024 Carlo Orlando Calvo</p>
     </footer>
+
+    <div class="download-button">
+        <button onclick="downloadPDF()">Download as PDF</button>
+    </div>
 
     <script src="scripts.js"></script>
 </body>
